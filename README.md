@@ -4,24 +4,24 @@ A responsive personal portfolio website built using vanilla HTML, CSS, and JavaS
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 This platform serves as my engineering portfolio to document my academic progress, showcase high-performance web systems (such as GestureX and HireChefNow), and share engineering insights regarding browser-based machine learning environments.
 
 ---
 
-## ✨ System Features
+##  System Features
 
-- 🏠 **Home Page** — Interactive profile summary with links to my core applications.
-- 👤 **About Page** — Comprehensive documentation of academic scores, Dean's List statuses, and technical skills.
-- 📰 **Technical Blog** — Conceptual breakdowns outlining algorithmic implementations of my final year project.
-- 📬 **Validated Contact Frame** — Interactive form utility fueled with JavaScript logic validation layers.
+-  **Home Page** — Interactive profile summary with links to my core applications.
+-  **About Page** — Comprehensive documentation of academic scores, Dean's List statuses, and technical skills.
+-  **Technical Blog** — Conceptual breakdowns outlining algorithmic implementations of my final year project.
+-  **Validated Contact Frame** — Interactive form utility fueled with JavaScript logic validation layers.
 - 🌙 **Persistent Theme Module** — Toggles seamlessly between dark and light templates via `localStorage` checks.
-- 📱 **Fluid Responsive Breakpoints** — Adapts clean grid columns dynamically over both desktop and mobile layouts.
+-  **Fluid Responsive Breakpoints** — Adapts clean grid columns dynamically over both desktop and mobile layouts.
 
 ---
 
-## 🛠️ Core Technologies Used
+##  Core Technologies Used
 
 | Technology | Implementation Purpose |
 |---|---|
@@ -32,7 +32,7 @@ This platform serves as my engineering portfolio to document my academic progres
 
 ---
 
-## 🖼️ Project Screenshots
+##  Project Screenshots
 
 ### Light Mode View (Default State)
 ![Default Light Mode Interface](images/screenshot-light.jpg)
@@ -42,7 +42,7 @@ This platform serves as my engineering portfolio to document my academic progres
 
 ---
 
-## 🚀 Execution Instructions
+##  Execution Instructions
 
 ### Local Environment
 1. Clone or download this project container.
@@ -52,4 +52,4 @@ This platform serves as my engineering portfolio to document my academic progres
 ## 🌐 Live Demo
 
 Deployed via GitHub Pages:  
-👉 **[https://yourusername.github.io/personal-blog](https://nikhazriq.github.io/Hazriq-s-Blog/)**
+ **[https://yourusername.github.io/personal-blog](https://nikhazriq.github.io/Hazriq-s-Blog/)**

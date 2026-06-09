@@ -48,3 +48,8 @@ This platform serves as my engineering portfolio to document my academic progres
 1. Clone or download this project container.
 2. Drop your project image references directly inside the root `/images/` path.
 3. Launch `index.html` within your preferred desktop or mobile browser.
+
+## 🌐 Live Demo
+
+Deployed via GitHub Pages:  
+👉 **[https://yourusername.github.io/personal-blog](https://nikhazriq.github.io/Hazriq-s-Blog/)**

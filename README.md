@@ -32,6 +32,16 @@ This platform serves as my engineering portfolio to document my academic progres
 
 ---
 
+## 🖼️ Project Screenshots
+
+### Light Mode View (Default State)
+![Default Light Mode Interface](images/screenshot-light.png)
+
+### Dark Mode View (Theme Toggle Active)
+![Active Dark Mode Interface](images/screenshot-dark.png)
+
+---
+
 ## 🚀 Execution Instructions
 
 ### Local Environment

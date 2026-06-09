@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Nik Aiman Hazriq</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">HZ<span>.</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><button class="dark-toggle" id="darkToggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <h1>Get In <em>Touch</em></h1>
+    <p>Have a question or looking for an engineering intern? Let's connect.</p>
+  </section>
+
+  <section class="section contact-layout">
+    <div class="contact-info">
+      <h3>Let's Connect</h3>
+      <p>I am looking for an internship position where I can contribute to production-grade applications and scale web architectures.</p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <span class="ci-icon">📍</span>
+          <span>Sepang, Selangor, Malaysia</span>
+        </div>
+        <div class="contact-item">
+          <span class="ci-icon">🎓</span>
+          <span>UniSZA — Computer Science Student</span>
+        </div>
+        <div class="contact-item">
+          <span class="ci-icon">📧</span>
+          <span><a href="mailto:nikaimanbasis1679@gmail.com">nikaimanbasis1679@gmail.com</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <div class="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="e.g. Ahmad" />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="example@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="What's on your mind?"></textarea>
+        </div>
+        <button class="btn-primary" id="sendBtn" onclick="handleSend()">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Nik Aiman Hazriq · Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Aiman's Blog</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">HZ<span>.</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button class="dark-toggle" id="darkToggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <h1>The <em>Blog</em></h1>
+    <p>Notes, tutorials, and honest takes from an IT student.</p>
+  </section>
+
+  <section class="section blog-list">
+
+    <article class="blog-post" id="post1">
+      <div class="post-header">
+        <span class="post-tag">Database</span>
+        <span class="post-date">May 15, 2025</span>
+      </div>
+      <h2>What I Learned from Building My First Database System</h2>
+      <p>When my lecturer assigned a full database project for our Advanced Database course, I had no idea how deep the rabbit hole would go. We had to build a complete system — from ER diagrams to RBAC security to OLAP queries — and I learned more in those weeks than in most of the semester.</p>
+      <p>The biggest lesson? <strong>Naming things properly from day one.</strong> Once you have 20 tables with vague column names, it's too late. Every query becomes a guessing game.</p>
+      <p>If you're starting a database project, my advice: draw the ERD first, get it reviewed, then start coding. Don't skip the plan.</p>
+      <div class="post-footer">
+        <span>5 min read</span>
+        <a href="blog.html" class="card-link">← Back to all posts</a>
+      </div>
+    </article>
+
+    <div class="post-divider"></div>
+
+    <article class="blog-post" id="post2">
+      <div class="post-header">
+        <span class="post-tag">Web Dev</span>
+        <span class="post-date">April 10, 2025</span>
+      </div>
+      <h2>HTML, CSS & JS — My Journey from Zero to Homepage</h2>
+      <p>A year ago I thought "responsive design" was just making the font bigger. Now I know it involves media queries, flexbox, CSS grid, and about a hundred decisions I didn't know I'd have to make.</p>
+      <p>The hardest part for me was CSS positioning. Absolute, relative, fixed, sticky — they all feel logical until you're 3 hours into debugging why a div is floating off the screen on mobile.</p>
+      <div class="post-footer">
+        <span>4 min read</span>
+        <a href="blog.html" class="card-link">← Back to all posts</a>
+      </div>
+    </article>
+
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Nik Aiman Hazriq · Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
